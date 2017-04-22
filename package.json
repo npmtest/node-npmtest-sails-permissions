@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [sails-permissions (v2.2.0)](https://github.com/tjwebb/sails-permissions) [![npm package](https://img.shields.io/npm/v/npmtest-sails-permissions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-permissions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-permissions.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-permissions)",
+    "description": "#### basic test coverage for  [sails-permissions (v2.2.0)](https://github.com/tjwebb/sails-permissions)  [![npm package](https://img.shields.io/npm/v/npmtest-sails-permissions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-permissions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-permissions.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-permissions)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "sails-permissions": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "2017.4.23"
 }

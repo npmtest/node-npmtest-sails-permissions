@@ -1,4 +1,7 @@
-# test coverage for  [sails-permissions (v2.2.0)](https://github.com/tjwebb/sails-permissions)  [![npm package](https://img.shields.io/npm/v/npmtest-sails-permissions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-permissions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-permissions.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-permissions)
+# npmtest-sails-permissions
+
+#### basic test coverage for  [sails-permissions (v2.2.0)](https://github.com/tjwebb/sails-permissions)  [![npm package](https://img.shields.io/npm/v/npmtest-sails-permissions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-permissions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-permissions.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-permissions)
+
 #### Comprehensive user permissions and entitlements system for sails.js and Waterline. Supports user authentication with passport.js, role-based permissioning, object ownership, and row-level security.
 
 [![NPM](https://nodei.co/npm/sails-permissions.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/sails-permissions)
@@ -125,7 +128,8 @@
         "prepublish": "gulp",
         "test": "gulp && mocha --reporter spec --compilers js:babel/register"
     },
-    "version": "2.2.0"
+    "version": "2.2.0",
+    "bin": {}
 }
 ```
 
